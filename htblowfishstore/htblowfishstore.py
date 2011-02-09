@@ -4,7 +4,7 @@ from acct_mgr.htfile import HtPasswdStore
 
 class HtBlowfishStore(HtPasswdStore):
     """
-    This class extend HtPasswdStore for Trac's AccountManager with Blowfish support.
+    This class extends HtPasswdStore for Trac's AccountManager with Blowfish support.
     """
 
     def config_key(self):
